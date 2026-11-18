@@ -1,11 +1,11 @@
-#' @title Convert a baking ingredient from cups to milliliters and grams 
+#' @title Converts a baking ingredient from cups to milliliters and grams 
 #' 
 #' @description Given the amount of a baking ingredient in cups, outputs the equivalent volume in grams and milliliters. 
-#' The baking ingredient must either be a liquid, flour, sugar, or butter
+#' The baking ingredient must either be a "liquid", "flour", "sugar", or "butter"
 #' 
-#' @details This function requires `tibble::tibble()`to give a formatted output 
+#' @details This function requires `tibble::tibble()` to give a formatted output 
 #' 
-#' @param type is a character representing the baking ingredient, must be one of "liquid", "flour", "sugar", "butter
+#' @param type is a character representing the baking ingredient, must be one of "liquid", "flour", "sugar", "butter"
 #' 
 #' @param cup is a numeric representing the amount in cups of your ingredient
 #' 

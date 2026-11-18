@@ -2,12 +2,12 @@
 % Please edit documentation in R/cup_converter.R
 \name{cup_converter}
 \alias{cup_converter}
-\title{Convert a baking ingredient from cups to milliliters and grams}
+\title{Converts a baking ingredient from cups to milliliters and grams}
 \usage{
 cup_converter(type, cup)
 }
 \arguments{
-\item{type}{is a character representing the baking ingredient, must be one of "liquid", "flour", "sugar", "butter}
+\item{type}{is a character representing the baking ingredient, must be one of "liquid", "flour", "sugar", "butter"}
 
 \item{cup}{is a numeric representing the amount in cups of your ingredient}
 }
@@ -16,10 +16,10 @@ A tibble that displays the type, the amount in cups, an equivalent amount in gra
 }
 \description{
 Given the amount of a baking ingredient in cups, outputs the equivalent volume in grams and milliliters.
-The baking ingredient must either be a liquid, flour, sugar, or butter
+The baking ingredient must either be a "liquid", "flour", "sugar", or "butter"
 }
 \details{
-This function requires \code{tibble::tibble()}to give a formatted output
+This function requires \code{tibble::tibble()} to give a formatted output
 }
 \examples{
 cup_converter("flour", 0.5)

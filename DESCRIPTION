@@ -1,6 +1,6 @@
 Package: assignmentB2SusanZhang
 Title: Converts ingredients from cups to millilitres and grams 
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Susan", "Zhang", , "sz17@student.ubc.ca", role = c("aut", "cre"))
 Description: This package has a function that converts baking ingredients (liquid, flour, sugar, butter) from cups into milliltres and grams. This function displays these conversions in a tibble output.

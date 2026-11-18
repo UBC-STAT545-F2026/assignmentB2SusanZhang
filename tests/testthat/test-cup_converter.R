@@ -1,3 +1,5 @@
+#tests for the cup_converter() function
+
 test_that("cup_converter works as documented, and throws the right message with the wrong inputs", {
   
   expect_equal(cup_converter("liquid", 1), tibble::tibble(ingredient = "liquid", cups = 1, grams = 240, milliliters = 250)) #checks conversion is correct for liquids
