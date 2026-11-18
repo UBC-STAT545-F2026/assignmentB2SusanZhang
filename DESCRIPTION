@@ -1,11 +1,15 @@
 Package: assignmentB2SusanZhang
-Title: What the Package Does (One Line, Title Case)
+Title: Converts ingredients from cups to millilitres and grams 
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Susan", "Zhang", , "sz17@student.ubc.ca", role = c("aut", "cre"))
+Description: This package has a function that converts baking ingredients (liquid, flour, sugar, butter) from cups into milliltres and grams. This function displays these conversions in a tibble output.
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Imports: 
+  tibble
+Suggests:
+  testthat(>= 3.0.0)
+Config/testthat/edition: 3
